@@ -8,11 +8,8 @@
       "type": "node",
       "request": "attach",
       "name": "Launch Program",
-      "restart": true,
-      "protocol": "inspector",
-      "skipFiles": [
-        "<node_internals>/**"
-      ]
+      "restart":true,
+      "protocol": "inspector"
     }
   ]
 }
